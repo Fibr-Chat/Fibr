@@ -1,10 +1,14 @@
 /* GameSense-inspired CSS for Fibr */
 /* Header */
+
+
+
 header {
+  font-family: 'Verdana';font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color: #0e0e0f;
   color: #fff;
   padding: 1rem;
 }
@@ -24,11 +28,12 @@ nav ul {
 }
 
 nav li {
-  margin-left: 1rem;
+  margin-left: 5rem;
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
+  font-family: 'Verdana';font-size: 20px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -37,6 +42,7 @@ nav a {
 /* Main */
 main {
   display: flex;
+  font-family: 'Noto Sans';font-size: 22px;
   height: calc(100vh - 4rem);
   background-color: #282c34;
   color: #fff;
@@ -44,7 +50,7 @@ main {
 
 .sidebar {
   width: 20%;
-  background-color: #1b1e23;
+  background-color: #0e0e0e;
   padding: 1rem;
 }
 
@@ -54,17 +60,17 @@ main {
 }
 
 .messages {
-  height: 70vh;
+  height: 80vh;
   overflow-y: auto;
 }
 
 .message-form {
-  margin-top: 1rem;
+  margin-top: 1.9rem;
 }
 
 #message-input {
   padding: 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
   border: none;
   width: 80%;
   margin-right: 1rem;
@@ -72,15 +78,16 @@ main {
 }
 
 #send-button {
-  background-color: #4caf50;
+  background-color: #a31097;
   color: #fff;
+  
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
 #send-button:hover {
-  background-color: #3e8e41;
+  background-color: #1c0049;
 }

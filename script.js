@@ -48,7 +48,9 @@ function addMessage(author, message, timestamp, isLocalUser) {
   const usernameSpan = document.createElement("span");
   usernameSpan.classList.add("username");
   usernameSpan.innerText = author;
-  usernameSpan.style.fontWeight = "bold";
+  usernameSpan.style.fontSize = "0.90em";
+  //usernameSpan.style.fontWeight = "bold";
+  
 
   // Create the timestamp element
   const timestampSpan = document.createElement("span");
@@ -68,13 +70,15 @@ function addMessage(author, message, timestamp, isLocalUser) {
   const timeString = messageDate.toLocaleTimeString(undefined, timeOptions);
 
   timestampSpan.innerText = `${dateString} at ${timeString}`;
-  timestampSpan.style.fontSize = "0.8em";
+  timestampSpan.style.fontSize = "0.6em";
   timestampSpan.style.color = "#888";
+  
 
   // Create the message content element
   const messageContent = document.createElement("span");
   messageContent.classList.add("message-content");
   messageContent.innerText = message;
+  messageContent.style.fontSize = "0.8em";
 
   // Add the elements to the message div
   messageDiv.appendChild(usernameSpan);
