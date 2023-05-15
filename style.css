@@ -42,9 +42,9 @@ nav a {
 /* Main */
 main {
   display: flex;
-  font-family: 'Noto Sans';font-size: 22px;
+  font-family: 'Noto Sans';font-size: 20px;
   height: calc(100vh - 4rem);
-  background-color: #282c34;
+  background-color: #15181c;
   color: #fff;
 }
 
