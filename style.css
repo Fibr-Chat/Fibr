@@ -10,7 +10,7 @@ header {
   align-items: center;
   background-color: #0e0e0f;
   color: #fff;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .logo {
@@ -51,7 +51,7 @@ main {
 .sidebar {
   width: 20%;
   background-color: #0e0e0e;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .chat {
@@ -78,9 +78,8 @@ main {
 }
 
 #send-button {
-  background-color: #a31097;
+  background-color: #02001c;
   color: #fff;
-  
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 1.25rem;
@@ -89,5 +88,5 @@ main {
 }
 
 #send-button:hover {
-  background-color: #1c0049;
+  background-color: #020863;
 }
