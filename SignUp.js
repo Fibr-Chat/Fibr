@@ -20,5 +20,5 @@ signupForm.addEventListener("submit", (event) => {
   localStorage.setItem("password", password);
 
   // Redirect the user to the chat page
-  window.location.href = "Main.html";
+  window.location.href = "index.html";
 });
