@@ -48,7 +48,6 @@ main {
   font-family: 'Noto Sans';font-size: 20px;
   height: calc(100vh - 4rem);
   background-color: #15181c;
-  color: #fff;
 }
 
 .sidebar {
