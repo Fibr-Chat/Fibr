@@ -7,5 +7,6 @@ const Badges = {
 	DEFAULT: " " // No custom role
 }
 
-// Add a boolean to hide staff badge or something
+const HideStaffBadge = new Boolean(false); // Add a boolean to hide staff badge
+const HideAllBadges = new Boolean(false);
 // Do whatever you want with this, it's going to be similar to discord's badge system but less pay2win if you know what I mean.
